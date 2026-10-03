@@ -1,0 +1,19 @@
+version: 1
+
+# Your journal's website: a plain MyST project, yours to rewrite. The plugin URL and
+# `site.template` below, and `mystmd` in package.json, are pinned at bootstrap and bumped
+# by hand. https://scholar.nexus/oaktree-sapling/guide/pins
+
+extends:
+  - ./brand/brand.yml
+
+project:
+  title: Demo Two Review
+  plugins:
+    # The `paper-cards` directive, at an engine tag.
+    - https://raw.githubusercontent.com/pollomarzo/whitelabel/v0.0.0-dev.46/plugins/gallery.mjs
+  toc:
+    - file: pages/index.md
+
+site:
+  template: https://github.com/impact-scholars/myst-theme/releases/download/v0.2.0/book-theme.zip
