@@ -11,4 +11,4 @@ site:
 project:
   options:
     # https://scholar.nexus/oaktree-sapling/guide/branding#pdf-logo
-    logo: ./logo.svg
+    logo: brand/logo.svg
